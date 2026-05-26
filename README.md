@@ -38,6 +38,8 @@ Ví dụ:
 | `beta < 0`  | Giảm sáng     |
 
 ---
+ĐÓNG MỞ ẢNH
+----
 # 4. `np.ones()`
 kernel = np.ones((5,5), np.uint8)
 
@@ -63,6 +65,8 @@ Các phép phổ biến:
 | `cv2.MORPH_OPEN`  | Erosion → Dilation |
 | `cv2.MORPH_CLOSE` | Dilation → Erosion |
 
+---
+XÁC ĐỊNH BIÊN
 ---
 # 6. `cv2.Sobel()`
 sobel_x = cv2.Sobel(img, cv2.CV_64F, 1, 0, ksize=3)
@@ -120,6 +124,8 @@ Quy tắc:
 | `< lower` | Loại bỏ           |
 | Ở giữa    | Kiểm tra liên kết |
 
+---
+#DISPLAY
 ---
 # 10. `cv2.imshow()`
 cv2.imshow("Original", img)
